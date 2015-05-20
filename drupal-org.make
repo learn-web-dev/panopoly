@@ -72,3 +72,7 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 7d366a1
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_admin][patch][] = https://www.drupal.org/files/issues/2235081-panopoly_admin-jquery_update-10.patch
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-update-jquery_update-2235081-11.patch
