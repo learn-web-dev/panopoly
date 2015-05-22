@@ -72,3 +72,7 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 1736b08
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_admin][patch][] = https://www.drupal.org/files/issues/panopoly_admin-move-jquery_update-2492811-6.patch
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-move-jquery_update-2492811-6.patch
