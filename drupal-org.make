@@ -72,3 +72,6 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = eaaf8e3
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_images][patch][] = https://www.drupal.org/files/issues/panopoly_images-manualcrop-update-2401473-24.patch
