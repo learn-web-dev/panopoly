@@ -6,7 +6,7 @@ core = 7.x
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = b750555
+projects[panopoly_core][download][revision] = b0339aa
 projects[panopoly_core][download][branch] = 7.x-1.x
 
 projects[panopoly_images][version] = 1.x-dev
@@ -72,6 +72,3 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 26e0a71
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-video_widget-2521644-2.patch
