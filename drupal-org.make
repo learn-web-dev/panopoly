@@ -72,3 +72,8 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 1d5b170
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-tablefield24-2479569-3.patch
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-tablefield24-2479569-3.patch
+projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-update_tablefield_to-2479569-10.patch
