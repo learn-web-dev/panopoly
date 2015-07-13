@@ -72,3 +72,7 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 869532c
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-error_on_install_of-2183937-39.patch
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/column_module_cannot_be_null-panopoly_core-2183937-20.patch
