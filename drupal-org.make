@@ -6,7 +6,7 @@ core = 7.x
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = bed5f57
+projects[panopoly_core][download][revision] = bdfa872
 projects[panopoly_core][download][branch] = 7.x-1.x
 
 projects[panopoly_images][version] = 1.x-dev
@@ -18,19 +18,19 @@ projects[panopoly_images][download][branch] = 7.x-1.x
 projects[panopoly_theme][version] = 1.x-dev
 projects[panopoly_theme][subdir] = panopoly
 projects[panopoly_theme][download][type] = git
-projects[panopoly_theme][download][revision] = 4924d46
+projects[panopoly_theme][download][revision] = 53a8c8c
 projects[panopoly_theme][download][branch] = 7.x-1.x
 
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 2c46a47
+projects[panopoly_magic][download][revision] = 0e5ffba
 projects[panopoly_magic][download][branch] = 7.x-1.x
 
 projects[panopoly_widgets][version] = 1.x-dev
 projects[panopoly_widgets][subdir] = panopoly
 projects[panopoly_widgets][download][type] = git
-projects[panopoly_widgets][download][revision] = 0be8b44
+projects[panopoly_widgets][download][revision] = 51bb228
 projects[panopoly_widgets][download][branch] = 7.x-1.x
 
 projects[panopoly_admin][version] = 1.x-dev
@@ -62,7 +62,7 @@ projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
 projects[panopoly_search][version] = 1.x-dev
 projects[panopoly_search][subdir] = panopoly
 projects[panopoly_search][download][type] = git
-projects[panopoly_search][download][revision] = 8d1945c
+projects[panopoly_search][download][revision] = 208f003
 projects[panopoly_search][download][branch] = 7.x-1.x
 
 ; For running the automated tests.
@@ -70,8 +70,5 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 projects[panopoly_test][version] = 1.x-dev
 projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
-projects[panopoly_test][download][revision] = 869532c
+projects[panopoly_test][download][revision] = 992f45f
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-update_media_vimeo_to-2498437-5.patch
