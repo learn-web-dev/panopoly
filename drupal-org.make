@@ -72,3 +72,6 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 4f6fb82
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_search][patch][] = https://www.drupal.org/files/issues/panopoly-search-index-performance-2565175-2.patch
