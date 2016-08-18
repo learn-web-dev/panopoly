@@ -72,3 +72,12 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 8b2820f
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_demo][patch][] = https://www.drupal.org/files/issues/panopoly_demo-storage-type-2785825-10.patch
+projects[panopoly_pages][patch][] = https://www.drupal.org/files/issues/panopoly_pages-storage-type-2785825-9.patch
+projects[panopoly_admin][patch][] = https://www.drupal.org/files/issues/panopoly_admin-storage-type-2785825-10.patch
+projects[panopoly_users][patch][] = https://www.drupal.org/files/issues/panopoly_users-storage-type-2785825-9.patch
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-storage-type-2785825-6.patch
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-storage-type-2785825-12.patch
+projects[panopoly_search][patch][] = https://www.drupal.org/files/issues/panopoly_search-storage-type-2785825-10.patch
