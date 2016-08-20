@@ -72,3 +72,6 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 95478e7
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-fix-panels-regressions-2787195-3.patch
