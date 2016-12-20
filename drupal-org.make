@@ -72,7 +72,3 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = ac32b63
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-any_plans_for_updating-2828987-7.patch
-projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-media-dialog-zindex-2828987-13.patch
