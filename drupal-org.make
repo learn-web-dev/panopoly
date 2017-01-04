@@ -72,3 +72,8 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = ac32b63
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-spotlight-linkit-2173535-10.patch
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-spotlight-linkit-2173535-11.patch
+projects[panopoly_wysiwyg][patch][] = https://www.drupal.org/files/issues/panopoly_wysiwyg-spotlight-linkit-2173535-13.patch
