@@ -72,3 +72,8 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 0376c4e
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-media-update-2828987-19.patch
+projects[panopoly_images][patch][] = https://www.drupal.org/files/issues/panopoly_images-media-update-2828987-14.patch
+projects[panopoly_core][patch][] = https://www.drupal.org/files/issues/panopoly_core-media-update-2828987-14.patch
