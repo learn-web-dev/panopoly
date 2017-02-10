@@ -61,7 +61,7 @@ function panopoly_build_distribution() {
 	cd drupal
 	drush make --yes profiles/panopoly/drupal-org-core.make --prepare-install
 	drush make --yes profiles/panopoly/drupal-org.make --no-core --contrib-destination=profiles/panopoly
-	drush dl diff features
+	drush dl diff
 	mkdir -p sites/default/private/files
 	mkdir -p sites/default/private/temp
 
