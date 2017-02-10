@@ -129,8 +129,9 @@ function drupal_ti_install_drupal() {
 		set +e
 	fi
 	php -d sendmail_path=$(which true) ~/.composer/vendor/bin/drush.php --yes site-install panopoly --db-url="$DRUPAL_TI_DB_URL" --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="Panopoly"
-	drush vset -y file_private_path "sites/default/private/files"
-	drush vset -y file_temporary_path "sites/default/private/temp"
+	# @todo: How to do this in Drupal 8?
+	#drush vset -y file_private_path "sites/default/private/files"
+	#drush vset -y file_temporary_path "sites/default/private/temp"
 
 	# Switch to the Panopoly platform built from Git (if we aren't there already).
 	cd ../drupal
