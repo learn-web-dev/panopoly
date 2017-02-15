@@ -11,7 +11,7 @@ $DRUSH $DRUSH_ARGS en -y diff features
 OVERRIDDEN=0
 for panopoly_feature in $PANOPOLY_FEATURES; do
   echo "Checking $panopoly_feature..."
-  if $DRUSH $DRUSH_ARGS features-diff $panopoly_feature 2>&1 | grep -v 'Feature is in its default state'; then
+  if $DRUSH $DRUSH_ARGS features-diff $panopoly_feature 2>&1 | grep -v 'Active config matches stored config'; then
     OVERRIDDEN=1
   fi
 done
