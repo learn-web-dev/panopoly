@@ -19,7 +19,7 @@ mv -f "$TRAVIS_BUILD_DIR"/behat.travis.yml.dist .
 # If this isn't an upgrade, we test if any features are overridden.
 if [[ "$UPGRADE" == none ]]
 then
-	export DRUSH_ARGS="--root=$DRUPAL_TI_DRUPAL_DIR --uri=$DRUPAL_TI_WEBSERVER_URL:$DRUPAL_TI_WEBSERVER_PORT" "$TRAVIS_BUILD_DIR"/scripts/check-overridden.sh
+	export DRUSH_ARGS="--root=$DRUPAL_TI_DRUPAL_DIR --uri=$DRUPAL_TI_WEBSERVER_URL:$DRUPAL_TI_WEBSERVER_PORT"
 	# For some reason, the first features-diff gives an error, but afterward,
 	# everything works for, so, just do it once initially.
 	drush $DRUSH_ARGS features-diff panopoly_core
