@@ -62,7 +62,7 @@ projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
 projects[panopoly_search][version] = 1.x-dev
 projects[panopoly_search][subdir] = panopoly
 projects[panopoly_search][download][type] = git
-projects[panopoly_search][download][revision] = 128fd59
+projects[panopoly_search][download][revision] = e0bae4b
 projects[panopoly_search][download][branch] = 7.x-1.x
 
 ; For running the automated tests.
@@ -72,6 +72,3 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 65b293d
 projects[panopoly_test][download][branch] = 7.x-1.x
-
-; Adding patches:
-projects[panopoly_wysiwyg][patch][] = https://www.drupal.org/files/issues/panopoly_wysiwyg-wysiwyg-v24-2865140-2.patch
