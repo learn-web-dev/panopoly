@@ -72,3 +72,8 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = 08c9bc8
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_widgets][patch][] = https://www.drupal.org/files/issues/panopoly_widgets-fpp-reusable-access-2881473-2.patch
+projects[panopoly_test][patch][] = https://www.drupal.org/files/issues/panopoly_test-fpp-reusable-access-2881473-8.patch
+projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-fpp-reusable-access-2881473-5.patch
