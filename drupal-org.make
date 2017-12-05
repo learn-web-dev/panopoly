@@ -72,3 +72,6 @@ projects[panopoly_test][subdir] = panopoly
 projects[panopoly_test][download][type] = git
 projects[panopoly_test][download][revision] = f3c2e30
 projects[panopoly_test][download][branch] = 7.x-1.x
+
+; Adding patches:
+projects[panopoly_magic][patch][] = https://www.drupal.org/files/issues/panopoly_magic-custom-preview-2484843-7.patch
