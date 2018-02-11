@@ -146,14 +146,14 @@ branches:
   except:
     - 8.x-2.x
 
-notifications:
-  email:
-    recipients:
-      - panopoly-ci@googlegroups.com
-    on_success: always
-    on_failure: always
-  irc:
-    channels:
-      - "chat.freenode.net#panopoly"
-    on_success: always
-    on_failure: always
+# notifications:
+#   email:
+#     recipients:
+#       - panopoly-ci@googlegroups.com
+#     on_success: always
+#     on_failure: always
+#   irc:
+#     channels:
+#       - "chat.freenode.net#panopoly"
+#     on_success: always
+#     on_failure: always
